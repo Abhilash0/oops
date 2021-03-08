@@ -1,0 +1,63 @@
+drupal username: abhibhatt
+drupal password: abhibhatt
+
+gitlab username: abhilash_b
+gitlab password: abhilash1998
+
+gairedmine username: abhilash.b
+gairedmine password: Abhilash@123
+
+gai gmail username and password: abhilash.b@gai.co.in  abhilash@420
+
+command to run sass: sass --watch sass:css
+
+
+
+magento password: abhi@420
+
+
+
+////////to push code in gitgailabs
+1. git branch (to check in which branch you are)
+2. git status (to check the status of particular branch)
+3. git commit -m "message" copy files
+4. git pull origin branch name(dev,stage)
+5. git push origin branch name(dev,stage)
+6.
+
+
+
+/////git clone command
+1. go into the folder structure
+2. git clone (then project url)
+3. go into the folder
+4. git checkout dev
+
+
+
+//////////git command for patch
+
+1. wget https://www.drupal.org/files/issues/2020-08-13/3164941-2.patch
+2. git apply -v <3164941-2.patch
+3. git status
+ then use same command after patch done
+4. for changing the patch name (git diff -u > 3164941-3.patch) ///give your name
+5. interdiff 3164941-2.patch 3164941-3.patch > interdiff.txt
+6. vi interdiff.txt to get out of it(:q!)
+   then we delete our changes to check it again to see our patch work or not
+7. git checkout (core/modules/options/src/Plugin/Field/FieldType/ListFloatItem.php core/modules/options/src/Plugin/Field/FieldType/ListIntegerItem.php core/modules/options/src/Plugin/Field/FieldType/ListItemBase.php core/modules/options/src/Plugin/Field/FieldType/ListStringItem.php)
+
+then we use our changed file
+
+8. git apply -v < 3164941-3.patch
+9. git status
+
+////to change dupal version
+
+	git branch -a
+	git checkout remotes/origin/9.1.x
+
+
+
+
+
